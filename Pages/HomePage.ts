@@ -39,12 +39,7 @@ constructor(page: Page) {
     this.SignInButtonLock = page.locator('#SubmitLogin');
 }
 
-//check if page exist
 
-//async checkPageExist() {
-
-   // await expect(this.page).toHaveTitle("Automation Practice");
-//}
 
 
     async openHomePage() {
@@ -65,7 +60,7 @@ constructor(page: Page) {
 
         await expect(this.searchBox).toBeVisible();
 
-       // await expect(this.searchButton).toBeVisible();
+    
 
         await expect(this.cart).toBeVisible();
 
@@ -79,13 +74,7 @@ constructor(page: Page) {
     
         
 
-        //await expect(this.womenMenu).toBeVisible();
-
-        //await expect(this.dressesMenu).toBeVisible();
-
-       // await expect(this.tshirtsMenu).toBeVisible();
-
-        //await expect(this.footer).toBeVisible();
+     
 
     }
        
